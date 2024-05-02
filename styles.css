@@ -1,0 +1,63 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(234, 234, 234);
+    padding: 2rem;
+}
+
+img {
+    width: 600px;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.mainTitle {
+    font-size: 1.6rem;
+    color: darkcyan;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 0.8rem;
+    padding: 2.5rem;
+}
+
+.buttonContainer {
+    display: flex;
+    margin: 2rem auto 0 auto;
+}
+
+.catButton {
+    background: rgb(255, 74, 74);
+}
+
+.dogButton {
+    margin: 0 1rem;
+    background: darkcyan;
+}
+
+.hamsterButton {
+    background: darkcyan;
+}
+
+a {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    color: white;
+}
+
+a:hover {
+    transition: 0.2s;
+    opacity: 0.8;
+}
